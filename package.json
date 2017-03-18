@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "npm run build && npm run open-dev-server",
+    "build": "webpack",
+    "open-dev-server": "node_modules/.bin/webpack-dev-server --open"
+  },
+  "dependencies": {
+    "d3": "^4.7.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
